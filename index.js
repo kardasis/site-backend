@@ -7,7 +7,7 @@ const app = express()
 app.get('/', (request, response) => {
   return response.json({
     data: {
-      message: `Testing changes`,
+      message: `the time on the server is ${Date.now()}`,
     },
   })
 })
